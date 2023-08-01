@@ -1,4 +1,4 @@
-create function GetSKUPrice(@ID_SKU AS int)
+create function dbo.GetSKUPrice(@ID_SKU AS int)
 Returns decimal(18,1)
 Begin
 Declare @Summ decimal(18,2)
